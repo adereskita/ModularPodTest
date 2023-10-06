@@ -14,12 +14,12 @@
 
 name: ModularPodTest
 options:
-  bundleIdPrefix: adereskita.ModularPodTest
-  deploymentTarget:
-    iOS: 13.0
+  bundleIdPrefix: com.adereskita
 targets:
   ModularPodTest:
     type: application
     platform: iOS
-    sources: 
-      - path: ModularPodTest
+    deploymentTarget: "13.0"
+    sources:
+      - ModularPodTest
+      # - path: ModularPodTest
