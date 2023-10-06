@@ -1,0 +1,25 @@
+# targetTemplates:
+#   ios-app:
+#     type: application
+#     platform: [iOS]
+
+# name: MyProject
+# options:
+#   bundleIdPrefix: com.myapp
+# targets:
+#   MyApp:
+#     templates: [ios-app]
+#     deploymentTarget: "10.0"
+#     sources: [MyApp]
+
+name: ModularPodTest
+options:
+  bundleIdPrefix: adereskita.ModularPodTest
+  deploymentTarget:
+    iOS: 13.0
+targets:
+  ModularPodTest:
+    type: application
+    platform: iOS
+    sources: 
+      - path: ModularPodTest

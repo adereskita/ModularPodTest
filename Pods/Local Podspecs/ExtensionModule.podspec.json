@@ -1,0 +1,19 @@
+{
+  "name": "ExtensionModule",
+  "version": "1.0.0",
+  "summary": "The ExtensionModule.",
+  "description": "The ExtensionModule that will be reuse as extension",
+  "homepage": "https://github.com/adereskita/ExtensionModuleTest",
+  "license": "MIT",
+  "authors": {
+    "ade reskita": "ade.reskita@yahoo.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/adereskita/ExtensionModuleTest",
+    "tag": "1.0.0"
+  },
+  "source_files": "ExtensionModule"
+}

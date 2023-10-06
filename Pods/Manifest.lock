@@ -1,0 +1,22 @@
+PODS:
+  - ExtensionModule (1.0.0)
+
+DEPENDENCIES:
+  - ExtensionModule (from `https://github.com/adereskita/ExtensionModuleTest`, branch `main`)
+
+EXTERNAL SOURCES:
+  ExtensionModule:
+    :branch: main
+    :git: https://github.com/adereskita/ExtensionModuleTest
+
+CHECKOUT OPTIONS:
+  ExtensionModule:
+    :commit: 998588463734bd04b473aa64c479511a08777f31
+    :git: https://github.com/adereskita/ExtensionModuleTest
+
+SPEC CHECKSUMS:
+  ExtensionModule: 57b55710ee7af516787f1270ca57168bab2aadb1
+
+PODFILE CHECKSUM: bbb28a8634cfcacfc98ecd3505e9fcb146f75d9f
+
+COCOAPODS: 1.12.1
